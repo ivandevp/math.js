@@ -1,0 +1,25 @@
+{
+  "name": "lab-math-js",
+  "version": "0.2.0",
+  "description": "Math JS Library made by Laboratoria rock stars",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivandevp/math.js.git"
+  },
+  "keywords": [
+    "math",
+    "js-deep-dive",
+    "educacion-continua",
+    "laboratoria"
+  ],
+  "author": "Ivan Medina <medinadiazivan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivandevp/math.js/issues"
+  },
+  "homepage": "https://github.com/ivandevp/math.js#readme"
+}
