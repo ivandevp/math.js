@@ -2,8 +2,9 @@
   "name": "lab-math-js",
   "version": "0.2.0",
   "description": "Math JS Library made by Laboratoria rock stars",
-  "main": "index.js",
+  "main": "dist/math.js",
   "scripts": {
+    "build": "browserify ./src/index.js -t babelify --outfile ./dist/math.js",
     "test": "node test.js"
   },
   "repository": {
@@ -21,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/ivandevp/math.js/issues"
   },
-  "homepage": "https://github.com/ivandevp/math.js#readme"
+  "homepage": "https://github.com/ivandevp/math.js#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0"
+  }
 }
